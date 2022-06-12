@@ -1,4 +1,8 @@
-
+.wrapper{
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
 .container{
    width: 1116px;
    height: auto;
@@ -6,4 +10,7 @@
 }
 img{
    height: 650px;
+}
+.pages{
+   flex: 1 1 auto;
 }

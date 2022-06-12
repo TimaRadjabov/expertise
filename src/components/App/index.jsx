@@ -13,23 +13,25 @@ import "./AppStyles.scss";
 
 function App() {
   return (
-    <>
+    <div className="wrapper">
       <div className="container">
         <Header />
       </div>
-      <Routes>
-        <Route path="/" element={<SliderTwo />} />
-        <Route path="expertise" element={<Expertise />} />
-        <Route path="aboutUs" element={<AboutUs />} />
-        <Route path="news" element={<News />} />
-        <Route path="supporting" element={<Supporting />} />
-        <Route path="estimation" element={<Estimation />} />
-        <Route path="contacts" element={<Contacts />} />
-      </Routes>
+      <div className="pages">
+        <Routes>
+          <Route path="/" element={<SliderTwo />} />
+          <Route path="expertise" element={<Expertise />} />
+          <Route path="aboutUs" element={<AboutUs />} />
+          <Route path="news" element={<News />} />
+          <Route path="supporting" element={<Supporting />} />
+          <Route path="estimation" element={<Estimation />} />
+          <Route path="contacts" element={<Contacts />} />
+        </Routes>
+      </div>
       <div className="container">
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
 
