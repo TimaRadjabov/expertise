@@ -1,0 +1,9 @@
+@import url("../../uikit/assets/theme/pallate.scss");
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+  color: var(--primary-white);
+  font-size: 18px;
+}

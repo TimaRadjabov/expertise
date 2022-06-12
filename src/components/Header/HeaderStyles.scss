@@ -1,0 +1,38 @@
+@import url('../../uikit/assets/theme/pallate.scss');
+
+.header-wrapper{
+   width: 1116px;
+   height: 115px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   .header-logo{
+      img{
+         width: 120px;
+         height: 110px;
+      }
+   }
+   .header-nav{
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      a{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100px;
+         height: auto;
+         font-size: 16px;
+         line-height: 1.8em;
+         font-weight: 700;
+         text-align: center;
+         margin-left: 10px;
+         transition: all 0.3s ease;
+      }
+      a:hover{
+         background-color: var(--primary-blue);
+         color: var(--primary-white);
+      }
+   }
+}
